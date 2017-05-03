@@ -17,5 +17,6 @@ module.exports = function createApp(db) {
       res.status(201).json(result.ops[0])
     })
   })
+  
   return app
 }
